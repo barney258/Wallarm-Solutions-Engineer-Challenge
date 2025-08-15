@@ -106,4 +106,5 @@ Here is a snapshot of the findings:
 ![Report Summary](./screenshots/results1.png)
 
 ---
+**Flow diagram showing the logical flow of traffic**  
 ![Flow Diagram](./screenshots/wallwarm_flow.png)
