@@ -54,7 +54,9 @@ Logged into the Wallarm UI and confirmed the requests were hitting (and being bl
 
 
 
-# Using GoTestWAF Notes
+
+
+# Using GoTestWAF
 
 
 Now the node is up and running - I setup a new backend (httpbin) and tested it with **GoTestWAF**.
