@@ -15,7 +15,7 @@ I decided to run the container by passing environment variables, this was just p
 I selected "Node token" and followed the instructions to create a node in the UI with the corresponding token.
 
 
-![Node Overview - Token was created here] (../screenshots/nodetoken.png)  
+![Node Overview - Token was created here] (screenshots/nodetoken.png)  
 
 **Step 4: Running the container**  
 I ran docker using the following code, this included the token I had generated from the Wallarm console  
