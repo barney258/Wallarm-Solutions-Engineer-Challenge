@@ -85,7 +85,7 @@ This setup the Wallarm node to correctly proxy to httpbin.
   `--url=http://host.docker.internal:80 \`
   `--noEmailReport`
 
-![GoTestWAF running live](../screenshots/gtwsetup.png)
+![GoTestWAF running live](../screenshots/gotestwaf_running_in_progress.png)
 
 
 **Step 4: Output from the Wallarm console**  
