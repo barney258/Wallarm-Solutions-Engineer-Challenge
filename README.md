@@ -89,7 +89,7 @@ Once you have completed the evaluation, submit the following:
 
 
 
-# Wallarm Deployment Notes
+# ⭐️Wallarm Deployment Notes⭐️
 
 **Step 0: Access to the UI**  
 I already had access to the Wallarm console (https://us1.my.wallarm.com/)
