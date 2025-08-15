@@ -26,7 +26,7 @@ You'll notice I actually added the environment variable for blocking `WALLARM_MO
 **Step 5: Checked the logs**  
 I checked the logs using the following command `docker logs 1f4b50c2cbc5 --tail=200`. This showed that everything was working as expected, including registration and synchronisation.
 
-![Logs from the intitial run - shows everything was successful] (../screenshots/logs.png)
+![Logs from the intitial run - shows everything was successful](../screenshots/logs.png)
 
 **Step 6: Accessing the container**  
 Access the container via the following command `docker exec -it 1f4b50c2cbc5 /bin/bash`
