@@ -101,4 +101,4 @@ The reports can be found here:
 - [CSV Report](reports/waf-evaluation-report-2025-August-15-18-24-48.csv)  
 
 
-![Flow Diagram](../screenshots/wallwarm_flow.png)
+![Flow Diagram](./screenshots/wallwarm_flow.png)
