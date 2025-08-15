@@ -16,7 +16,9 @@ I selected the option to use the Docker image to deploy locally on my machine. A
 **Step 2: Install Docker Destop**  
 Due to a recent fresh install of MacOS, I needed to install Docker Desktop for mac first.
 https://docs.docker.com/desktop/setup/install/mac-install/ - location of installation files.  
+
 ---
+
 **Step 3: Wallarm Token**  
 I decided to run the container by passing environment variables, this was just personal preference.
 I selected "Node token" and followed the instructions to create a node in the UI with the corresponding token.
