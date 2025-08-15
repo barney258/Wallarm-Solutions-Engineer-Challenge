@@ -94,11 +94,16 @@ This setup the Wallarm node to correctly proxy to httpbin.
 **Step 4: Output from the Wallarm console**  
 ![Wallarm UI from GoTestWAF attack](./screenshots/attack2.png)
 
-**Step 5: GoTestWAF Reports & Flow Diagram**  
+**📊Step 5: GoTestWAF Reports, Results & Flow Diagram📊**  
 The reports can be found here:
 
 - [PDF Report](reports/waf-evaluation-report-2025-August-15-18-24-48.pdf)
 - [CSV Report](reports/waf-evaluation-report-2025-August-15-18-24-48.csv)  
 
 
+**🚀Overal results where excellent🚀**  
+Here is a snapshot of the findings:
+![Report Summary](./screenshots/results1.png)
+
+---
 ![Flow Diagram](./screenshots/wallwarm_flow.png)
