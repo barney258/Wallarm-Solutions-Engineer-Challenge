@@ -18,7 +18,7 @@ I decided to run the container by passing environment variables, this was just p
 I selected "Node token" and followed the instructions to create a node in the UI with the corresponding token.
 
 
-![Node Overview - Token was created here](../screenshots/nodetoken.png)  
+![Node Overview - Token was created here](./screenshots/nodetoken.png)  
 
 **Step 4: Running the container**  
 I ran docker using the following code, this included the token I had generated from the Wallarm console  
@@ -29,7 +29,7 @@ You'll notice I actually added the environment variable for blocking `WALLARM_MO
 **Step 5: Checked the logs**  
 I checked the logs using the following command `docker logs 1f4b50c2cbc5 --tail=200`. This showed that everything was working as expected, including registration and synchronisation.
 
-![Logs from the intitial run - shows everything was successful](../screenshots/logs.png)
+![Logs from the intitial run - shows everything was successful](./screenshots/logs.png)
 
 **Step 6: Accessing the container**  
 Access the container via the following command `docker exec -it 1f4b50c2cbc5 /bin/bash`
@@ -39,9 +39,9 @@ I checked both the `/opt/wallarm/etc/wallarm/node.yaml` file and the `/etc/nginx
 In the node.yaml file I could see the token and also the UUID had been populated.  
 In the default.conf file I could block mode was present.
 
-![node.yaml file](../screenshots/nodeyaml.png)
+![node.yaml file](./screenshots/nodeyaml.png)
 
-![default.conf file](../screenshots/defaultconf.png)
+![default.conf file](./screenshots/defaultconf.png)
 
 **Step 8: Tested connectivity**  
 To test the node operation, I sent the following command  
@@ -51,7 +51,7 @@ Anything send to localhost is port mapped to 80:80 as per the initial container 
 **Step 9: Confirmed within the UI**  
 Logged into the Wallarm UI and confirmed the requests were hitting (and being blocked as I changed the mode) the Wallarm platform. See screenshot below. 
 
-![Screenshot of attacks being detected and mitigated by Wallarm](../screenshots/attack1.png)
+![Screenshot of attacks being detected and mitigated by Wallarm](./screenshots/attack1.png)
 
 
 
