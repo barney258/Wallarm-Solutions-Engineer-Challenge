@@ -4,14 +4,16 @@
 # ⭐️Wallarm Deployment Notes⭐️
 
 **Step 0: Access to the UI**  
-I already had access to the Wallarm console (https://us1.my.wallarm.com/)
+I already had access to the Wallarm console (https://us1.my.wallarm.com/)  
 ---
 **Step 1: Decide on deployment method**    
-I selected the option to use the Docker image to deploy locally on my machine. As I didn't have easy access to a cloud environment. I was using the following documentation link: https://docs.wallarm.com/installation/inline/compute-instances/docker/nginx-based/
+I selected the option to use the Docker image to deploy locally on my machine. As I didn't have easy access to a cloud environment. I was using the following documentation link: https://docs.wallarm.com/installation/inline/compute-instances/docker/nginx-based/  
+
 ---
+
 **Step 2: Install Docker Destop**  
 Due to a recent fresh install of MacOS, I needed to install Docker Desktop for mac first.
-https://docs.docker.com/desktop/setup/install/mac-install/ - location of installation files.
+https://docs.docker.com/desktop/setup/install/mac-install/ - location of installation files.  
 ---
 **Step 3: Wallarm Token**  
 I decided to run the container by passing environment variables, this was just personal preference.
