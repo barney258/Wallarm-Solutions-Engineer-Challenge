@@ -132,3 +132,12 @@ Here is a snapshot of the findings:
 
 **Flow diagram showing the logical flow of traffic**  
 ![Flow Diagram](./screenshots/wallwarm_flow.png)
+
+---
+
+## ℹ️ Additional Notes
+
+- Found the lab interesting, good insight into the fundamentals of data plane/control plane components.
+- Only issue I had was when I wrongly selected *API Token* instead of *Node Token*.
+- I could have completed it quicker, if I had gone straight with GoTestWAF as the traffic generator, but it was good practice to run through the fundamentals to check the node was working before proxying GTW through Wallarm and then to a backend.
+- Compliments to the documentation, it was clear and consise. It covered all the basics too which can often be overlooked when listing pre-requisities.
